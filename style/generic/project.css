@@ -1,0 +1,69 @@
+body > header {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+body > header > img {
+    width: 100%;
+    height: 614px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+main > div {
+    width: 48%;
+}
+
+/*img container*/
+
+main > div:first-of-type {
+    height: 700px;
+    overflow-y: scroll;
+}
+
+main > div:first-of-type > img {
+    height: 700px;
+}
+
+main > div:first-of-type > img:not(:last-of-type) {
+    margin-bottom: 1rem;
+}
+
+/*end img container*/
+
+main > div:last-of-type {
+    /*padding: 0 5rem 5rem;*/
+    position: relative;
+    padding: 0 9% 9%;
+}
+
+main > div:last-of-type > h1 {
+    font-size: 1.5rem;
+    padding-bottom: 1.5rem;
+    font-family: neue-montreal-thin, sans-serif;
+}
+
+main > div:last-of-type > div {
+    display: block;
+    position: absolute;
+    bottom: 10%;
+}
+
+main > div:last-of-type > div > p {
+    display: block;
+    padding: 30% 5rem 5rem 0;
+}
+
+main > div:last-of-type > div > a, main:last-of-type > div > div > span {
+    font-size: 1.5rem;
+}
+
+main > div:last-of-type > div > span {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}

@@ -1,0 +1,9 @@
+* {
+    margin: 0;
+}
+
+body {
+    padding: 1rem;
+    background-image: url("./asset/img/grune-texture-bg.png");
+    z-index: 0;
+}

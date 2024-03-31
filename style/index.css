@@ -1,0 +1,27 @@
+header {
+    margin-top: 2rem;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+header > img {
+    width: 60%;
+}
+
+body > main {
+    text-align: center;
+    margin-bottom: 12%;
+}
+
+body > main > span {
+    display: block;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    font-family: neue-montreal, sans-serif;
+}
+
+body > main > h1 {
+    margin-bottom: 5rem;
+}

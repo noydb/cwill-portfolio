@@ -1,0 +1,28 @@
+footer {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    background: transparent;
+}
+
+footer > a {
+    width: 9%;
+}
+
+footer > div {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 23%;
+}
+
+footer > div > a, footer > a {
+    font-size: 1rem;
+}
+
+footer > div > span {
+    width: 25%;
+}

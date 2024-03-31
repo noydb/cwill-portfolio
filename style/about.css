@@ -1,0 +1,29 @@
+main {
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+}
+
+img {
+    width: 50%;
+    height: 700px;
+    transform: translateY(-20px);
+}
+
+main > img, main > div {
+    width: 48%;
+}
+
+main > div {
+    padding: 9%;
+    position: relative;
+}
+
+main > div > span {
+    display: block;
+    font-size: 1.5rem;
+    width: 10%;
+    position: absolute;
+    bottom: 14%;
+    font-family: neue-montreal, sans-serif;
+}
