@@ -1,8 +1,11 @@
 1920
 1. Implement & test all screens
 
-1440
-1. Make sure index is perfect
-2. make sure about is perfect
-3. make sure project page is perfect (BEFORE DOING OTHERS)
-4. 
+1440px
+* need designs from cam to be sure:
+  * project page(s)
+* Make sure index is perfect
+* make sure about is perfect
+
+General
+1. Confirm fonts are correct with Cam

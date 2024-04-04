@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (link.textContent.includes('noydb')) {
             return;
         }
-        
+
         link.onclick = (e) => {
             e.preventDefault();
             let body = document.querySelector('body');
