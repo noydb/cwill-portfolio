@@ -1,69 +1,107 @@
-body > header {
-    display: flex;
-    justify-content: center;
-    padding-top: 2rem;
-    margin-bottom: 4rem;
-}
-
-body > header > img {
-    width: 100%;
-    height: 614px;
-}
-
 main {
     display: flex;
     justify-content: space-between;
+    padding-top: 80px;
 }
 
-main > div {
+main > section {
     width: 48%;
 }
 
 /*img container*/
 
-main > div:first-of-type {
-    height: 700px;
+main > section:first-of-type {
     overflow-y: scroll;
 }
 
-main > div:first-of-type > img {
-    height: 700px;
-}
-
-main > div:first-of-type > img:not(:last-of-type) {
+main > section:first-of-type > img:not(:last-of-type) {
     margin-bottom: 1rem;
 }
 
 /*end img container*/
 
-main > div:last-of-type {
+/* info panel right */
+main > section:last-of-type {
     /*padding: 0 5rem 5rem;*/
     position: relative;
     padding: 0 9% 9%;
 }
 
-main > div:last-of-type > h1 {
+main > section:last-of-type > h1 {
     font-size: 1.5rem;
     padding-bottom: 1.5rem;
     font-family: neue-montreal-thin, sans-serif;
+    text-transform: uppercase;
 }
 
-main > div:last-of-type > div {
+/* paragraphs */
+main > section:last-of-type > p {
+    font-size: .625rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 220%;
+}
+
+main > section:last-of-type > p:first-of-type {
+    margin-bottom: 1rem;
+}
+
+/* paragraphs end */
+
+/* contributors */
+main > section:last-of-type > div:first-of-type {
+    margin-top: 60px;
+    text-align: right;
+}
+
+main > section:last-of-type > div:first-of-type > h2 {
+    font-size: .625rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 220%;
+    margin-bottom: 20px;
+}
+
+main > section:last-of-type > div:last-of-type {
+    display: flex;
+    justify-content: flex-end;
+}
+
+main > section:last-of-type > div:last-of-type > div {
+    text-align: right;
+}
+
+main > section:last-of-type > div:last-of-type > div > span {
     display: block;
-    position: absolute;
-    bottom: 10%;
+    font-size: .625rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 220%;
 }
 
-main > div:last-of-type > div > p {
-    display: block;
-    padding: 30% 5rem 5rem 0;
+main > section:last-of-type > div:last-of-type > div:first-of-type {
+    margin-right: 40px;
 }
 
-main > div:last-of-type > div > a, main:last-of-type > div > div > span {
-    font-size: 1.5rem;
+/* contributors end */
+
+/* nav buttons */
+main > section:last-of-type > nav {
+    margin-top: 10rem;
 }
 
-main > div:last-of-type > div > span {
+main > section:last-of-type > nav > a, main > section:last-of-type > nav > span {
+    font-size: .8rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* "//" between nav buttons */
+main > section:last-of-type > div:last-of-type > span {
     padding-left: 3rem;
     padding-right: 3rem;
 }
+
+/* nav buttons end */
+
+/* end panel right*/

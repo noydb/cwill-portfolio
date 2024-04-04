@@ -1,5 +1,8 @@
+body {
+    padding-top: 86px;
+}
+
 header {
-    margin-top: 2rem;
     height: 40%;
     display: flex;
     justify-content: center;
@@ -16,7 +19,7 @@ body > main {
 
 body > main > span {
     display: block;
-    font-size: 1.5rem;
+    font-size: .88rem;
     margin-top: 3rem;
     margin-bottom: 4rem;
     font-family: neue-montreal, sans-serif;

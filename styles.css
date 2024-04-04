@@ -1,9 +1,27 @@
 * {
     margin: 0;
+    scrollbar-width: none; /*/ hide all scrollbars for firefox */
+    box-sizing: border-box;
+}
+
+/*/ hide all scrollbars */
+::-webkit-scrollbar {
+    display: none;
 }
 
 body {
-    padding: 1rem;
-    background-image: url("./asset/img/grune-texture-bg.png");
     z-index: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #E5E5E5;
+    transition: opacity .5s ease;
+}
+
+body.fade-out {
+    opacity: 0;
+    transition: opacity .5s ease;
+}
+
+ol {
+    list-style: none;
 }
