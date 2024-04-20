@@ -5,13 +5,14 @@ main {
 }
 
 main > section {
-    width: 48%;
+    width: 50%;
 }
 
 /*img container*/
 
 main > section:first-of-type {
     overflow-y: scroll;
+    height: 100vh;
 }
 
 main > section:first-of-type > img:not(:last-of-type) {

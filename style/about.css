@@ -5,13 +5,8 @@ main {
 }
 
 img {
-    width: 48%;
     height: 700px;
     transform: translateY(-20px);
-}
-
-main > div {
-    width: 48%;
 }
 
 main > div {
@@ -19,12 +14,12 @@ main > div {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 96px 125px 120px;
+    padding: 96px 128px 80px;
 }
 
 main > div > p, main > div > div > span:nth-of-type(2) {
     text-transform: uppercase;
-    font-size: 0.625rem;
+    font-size: 0.5rem;
     line-height: 220%;
     letter-spacing: 2px;
 }
@@ -38,12 +33,17 @@ main > div > div {
 }
 
 main > div > div > span:first-of-type {
-    width: 10%;
+    width: 55px;
+    font-size: 1.125rem;
 }
+
+/* designed by */
 
 main > div > div > span > a {
     text-decoration: underline;
 }
+
+/* designed by end */
 
 @media only screen and (min-width: 1920px) {
     img {
