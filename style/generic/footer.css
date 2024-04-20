@@ -6,7 +6,7 @@ footer {
     bottom: 0;
     width: 100%;
     background: transparent;
-    padding-bottom: 20px;
+    padding-bottom: 11px;
     left: 0;
     padding-left: 20px;
     padding-right: 20px;
@@ -18,16 +18,8 @@ footer > div {
     width: 60%;
 }
 
-footer > span {
-    padding-right: 47px;
-}
-
 footer > div > a, footer > a, footer > span {
-    font-size: .75rem;
+    font-size: .625rem;
     font-family: neue-montreal, sans-serif;
     text-transform: uppercase;
 }
-
-/*footer > div > span {*/
-/*    width: 25%;*/
-/*}*/

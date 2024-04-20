@@ -1,5 +1,5 @@
 body {
-    padding-top: 86px;
+    padding-top: 60px;
 }
 
 header {
@@ -9,7 +9,8 @@ header {
 }
 
 header > img {
-    width: 60%;
+    width: 926px;
+    height: 377px;
 }
 
 body > main {
@@ -19,7 +20,7 @@ body > main {
 
 body > main > span {
     display: block;
-    font-size: .88rem;
+    font-size: .625rem;
     margin-top: 3rem;
     margin-bottom: 4rem;
     font-family: neue-montreal, sans-serif;
