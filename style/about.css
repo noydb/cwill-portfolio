@@ -9,7 +9,7 @@ img {
     transform: translateY(-20px);
 }
 
-main > div {
+main > section {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -17,14 +17,14 @@ main > div {
     padding: 96px 128px 80px;
 }
 
-main > div > p, main > div > div > span:nth-of-type(2) {
+main > section > p, main > section > div > span:nth-of-type(2) {
     text-transform: uppercase;
     font-size: 0.5rem;
     line-height: 220%;
     letter-spacing: 2px;
 }
 
-main > div > div {
+main > section > div {
     font-size: 1.5rem;
     font-family: neue-montreal, sans-serif;
     display: flex;
@@ -32,14 +32,14 @@ main > div > div {
     align-items: end;
 }
 
-main > div > div > span:first-of-type {
+main > section > div > span:first-of-type {
     width: 55px;
     font-size: 1.125rem;
 }
 
 /* designed by */
 
-main > div > div > span > a {
+main > section > div > span > a {
     text-decoration: underline;
 }
 
@@ -50,7 +50,7 @@ main > div > div > span > a {
         height: 930px;
     }
 
-    main > div {
+    main > section {
         padding: 127px 180px 120px;
     }
 }
