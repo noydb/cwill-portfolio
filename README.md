@@ -11,3 +11,6 @@ General
 1. Confirm fonts are correct with Cam
 2. Accessibility
 3. https://medium.com/codex/building-a-better-javascript-dom-builder-part-1-4bf7b3639e5b
+
+https://nginx.org/en/docs/
+>>>>>>> Stashed changes
