@@ -6,6 +6,7 @@ main {
 
 img {
     height: 700px;
+    width: 700px;
     transform: translateY(-20px);
 }
 

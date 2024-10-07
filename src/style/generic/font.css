@@ -1,16 +1,19 @@
 @font-face {
     font-family: neue-montreal-thin;
-    src: url(../../asset/fonts/pp-neue-montreal/PPNeueMontreal-Thin.otf) format("opentype");
+    src: url(../../asset/font/pp-neue-montreal/PPNeueMontreal-Thin.otf) format("opentype");
+    font-display: swap;
 }
 
 @font-face {
     font-family: mori;
-    src: url(../../asset/fonts/pp-mori/PPMori-Regular.otf) format("opentype");
+    src: url(../../asset/font/pp-mori/PPMori-Regular.otf) format("opentype");
+    font-display: swap;
 }
 
 @font-face {
     font-family: neue-montreal;
-    src: url(../../asset/fonts/pp-neue-montreal/PPNeueMontreal-Book.otf) format("opentype");
+    src: url(../../asset/font/pp-neue-montreal/PPNeueMontreal-Book.otf) format("opentype");
+    font-display: swap;
 }
 
 h2, p, a, span, li {
