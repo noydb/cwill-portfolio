@@ -1,0 +1,5 @@
+{
+    "inputDirectory": "src",
+    "outputDirectory": "dist",
+    "verbose": false
+}
