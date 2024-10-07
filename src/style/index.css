@@ -20,7 +20,7 @@ body > main {
 
 body > main > span {
     display: block;
-    font-size: .625rem;
+    font-size: .75rem;
     margin-top: 3rem;
     margin-bottom: 4rem;
     font-family: neue-montreal, sans-serif;

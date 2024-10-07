@@ -19,7 +19,7 @@ footer > div {
 }
 
 footer > div > a, footer > a, footer > span {
-    font-size: .625rem;
+    font-size: .75rem;
     font-family: neue-montreal, sans-serif;
     text-transform: uppercase;
 }

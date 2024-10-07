@@ -37,7 +37,7 @@ main > section:last-of-type > h1 {
 
 /* paragraphs */
 main > section:last-of-type > p {
-    font-size: .625rem;
+    font-size: .75rem;
     text-transform: uppercase;
     letter-spacing: 2px;
     line-height: 220%;
@@ -56,7 +56,7 @@ main > section:last-of-type > div:first-of-type {
 }
 
 main > section:last-of-type > div:first-of-type > h2 {
-    font-size: .625rem;
+    font-size: .75rem;
     text-transform: uppercase;
     letter-spacing: 2px;
     line-height: 220%;
@@ -74,7 +74,7 @@ main > section:last-of-type > div:last-of-type > div {
 
 main > section:last-of-type > div:last-of-type > div > span {
     display: block;
-    font-size: .625rem;
+    font-size: .75rem;
     text-transform: uppercase;
     letter-spacing: 2px;
     line-height: 220%;
